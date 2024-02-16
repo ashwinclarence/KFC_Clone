@@ -53,6 +53,7 @@ body {
     border-radius: 30px;
     padding: 5px 10px;
     font-weight: 600;
+    cursor: pointer;
 }
 
 /* navbar */
@@ -80,11 +81,13 @@ body {
     justify-content: center;
     gap: 20px;
     align-items: center;
+   
 }
 
 .navbar-logo img {
     object-fit: contain;
     width: 100px;
+    cursor: pointer;
 }
 
 .navbar-left-links {
@@ -99,6 +102,7 @@ body {
     text-decoration: none;
     color: var(--text-color);
     font-weight: 600;
+    cursor: pointer;
 }
 
 .navbar-right {
@@ -112,6 +116,7 @@ body {
     flex-direction: row;
     gap: 10px;
     align-items: center;
+    cursor: pointer;
 }
 
 .navbar-user a {
@@ -120,12 +125,14 @@ body {
     text-decoration: none;
     color: var(--text-color);
     font-weight: 600;
+    cursor: pointer;
 }
 
 .navbar-cart {
     display: flex;
     flex-direction: row;
     align-items: center;
+    cursor: pointer;
 }
 
 .navbar-cart h6 {
@@ -189,6 +196,10 @@ body {
     width: 180px;
     color: var(--bg-color);
     text-align: center;
+    transition: .3s ease-in-out;
+}
+.start-order-button:hover {
+    background-color:#bb0123;
 }
 
 
@@ -254,6 +265,7 @@ body {
     overflow: hidden;
     background-color: #F3F2F5;
     text-align: center;
+    cursor: pointer;
 }
 
 .category-box img {
