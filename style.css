@@ -270,6 +270,7 @@ body {
     display: flex;
     justify-content: flex-end;
     padding-top: 100px;
+    overflow: hidden;
 
 }
 
@@ -394,4 +395,37 @@ body {
 }
 .footer-links i{
     color: var(--primary-color);
+}
+
+/* copyright */
+
+.copyright-container{
+    background-color: var(--secondary-color);
+    color: var(--bg-color);
+    padding: 10px;
+}
+.copyright-row{
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+.copyright-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #949494;
+}
+.account-follow-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.accounts-box{
+    border: 1px solid #4a4a4a;
+    height: 30px;
+    width: 30px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    border-radius: 50%;
 }
