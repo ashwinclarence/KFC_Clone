@@ -31,7 +31,7 @@ body {
     font-size: 12px;
     height: 40px;
     overflow: hidden;
-    z-index: 99;
+    z-index: 99999;
 }
 
 .enable-location-row {
