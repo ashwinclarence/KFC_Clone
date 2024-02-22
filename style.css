@@ -199,6 +199,7 @@ body {
     color: var(--bg-color);
     text-align: center;
     transition: .3s ease-in-out;
+    cursor: pointer;
 }
 
 .start-order-button:hover {
@@ -241,6 +242,7 @@ body {
     padding: 15px 10px;
     border-radius: 40px;
     color: var(--secondary-color);
+    cursor: pointer;
 }
 
 .order-type-selector-box-inner h5 {
@@ -487,6 +489,7 @@ body {
 .footer-logo {
     width: 100px;
     height: 100px;
+    cursor: pointer;
 }
 
 .footer-logo img {
@@ -547,4 +550,5 @@ body {
     align-items: center;
     justify-content: center;
     border-radius: 50%;
+    cursor: pointer;
 }
